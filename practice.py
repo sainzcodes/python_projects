@@ -1,0 +1,1 @@
+seconds_per_day = 86400 #60 sec/min *60 min/hr 24 hr/day
