@@ -1,0 +1,31 @@
+# sample Ansigle playbook
+- hosts: all
+
+  roles:
+  - common
+
+# configure and deply database servers.
+- hosts: dbservers
+
+  roles:
+  - db
+
+# Configure and deploy the web servers.
+- hosts: webservers
+  
+  roles:
+  - base-apache
+  - web
+
+# Configure and deploy the load balancer(s).
+- hosts: lbservers
+
+  roles:
+  - haproxy
+
+# Configure and deplopy the Nagios monitoring node(s)
+- hosts: monitoring
+
+  roles:
+  - base-apache
+  - nagios
