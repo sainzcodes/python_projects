@@ -1,0 +1,18 @@
+---
+  - name: "Challenge answers"
+    hosts: localhost
+
+    tasks:
+
+      - name: "test reachability"
+        ping:
+
+      - name: "find module"
+        find:
+          path: ~Challenges
+          file_type: file
+
+      - name: "find module"
+        find:
+          path: /var/tmp
+          file_type: file
