@@ -11,8 +11,7 @@ while True:
 		print("Too low")
 		break
 number+=1
-
-
 guess_me = 5
 number = 1 
 while True: 
+	
