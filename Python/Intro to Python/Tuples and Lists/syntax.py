@@ -56,3 +56,57 @@ marxes += others
 #If you’re not sure or don’t care where the item is in the list, use remove() to delete it by value. Goodbye, Groucho:
 marxes = ['Groucho', 'Chico', 'Harpo']
 marxes.remove('Groucho')
+
+#Delete All Items with clear()
+# Python 3.3 introduced a method to clear a list of all its elements:
+work_quotes = ['Working hard?', 'Quick question!', 'Number one priorities!']
+print (work_quotes)
+['Working hard?', 'Quick question!', 'Number one priorities!']
+work_quotes.clear()
+print (work_quotes)
+
+# It might help to remember—join() is the opposite of split(), as shown here:
+friends = ['Harry', 'Hermione', 'Ron']
+separator = ' * '
+joined = separator.join(friends)
+print (joined)
+'Harry * Hermione * Ron'
+separated = joined.split(separator)
+print (separated)
+['Harry', 'Hermione', 'Ron']
+separated == friends
+True
+
+# Reorder Items with sort() or sorted()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
